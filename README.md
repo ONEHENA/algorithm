@@ -1,1 +1,1 @@
-"# git"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/ONEHENA/git.git git push -u origin main
+알고리즘 정리하는 레파지토리입니다.
