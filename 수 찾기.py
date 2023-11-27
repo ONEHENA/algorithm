@@ -8,4 +8,18 @@ N개의 정수 A[1], A[2], …, A[N]이 주어져 있을 때, 이 안에 X라는
 
 M개의 줄에 답을 출력한다. 존재하면 1을, 존재하지 않으면 0을 출력한다.
 '''
+'''
+# 시간초과 -> 이분탐색 사용해야함
+import sys
 
+N = int(sys.stdin.readline())
+A = list(map(int,sys.stdin.readline().split()))
+M = sys.stdin.readline()
+B = list(map(int,sys.stdin.readline().split()))
+
+for i in range(0,N) : 
+    if A[i] in B : 
+        print(0)
+    else : 
+        print(1)
+'''
